@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+
+<context:annotation-config></context:annotation-config>
+
+<context:component-scan base-package="com.wiring.example"></context:component-scan>
+
+	<!-- <bean id="a" class="com.wiring.example.Account">
+		<property name="accountId" value="1"></property>
+		<property name="balance" value="12222"></property>
+	</bean>
+
+	<bean id="acc" class="com.wiring.example.Account">
+		<property name="accountId" value="2"></property>
+		<property name="balance" value="456622"></property>
+	</bean>
+
+	<bean id="c" class="com.wiring.example.Customer" >
+		<property name="id" value="1"></property>
+		<property name="name" value="Rama"></property>
+	</bean> -->
+
+</beans>
